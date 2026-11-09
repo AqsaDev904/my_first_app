@@ -1,9 +1,10 @@
 
 import 'package:flutter/material.dart';
+import 'package:my_first_app/E-commerce/Slashscreen.dart';
 import 'package:my_first_app/Get_api.dart';
+import 'package:my_first_app/authentication/Management/Student.dart';
 
 import 'package:my_first_app/authentication/Splash.dart';
-
 import 'Login_screen.dart';
 import 'Todoapp.dart';
 
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-home: Splash(),
+home: Slashscreen(),
         );
   }
 
